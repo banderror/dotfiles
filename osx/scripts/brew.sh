@@ -15,7 +15,8 @@ source ./install-terminal.sh
 source ./install-node-nvm.sh
 source ./install-node-nodejs.sh
 source ./install-node-yarn.sh
-
+source ./install-tools-main.sh
+source ./install-tools-misc.sh
 
 # ------------------------------------------------------------------------------
 # Install other apps
@@ -24,14 +25,6 @@ brew install bitwarden
 brew install --cask ticktick
 brew install --cask numi
 brew install --cask purevpn
-
-brew install --cask google-chrome
-brew install --cask google-chrome-dev
-brew install --cask firefox
-brew install --cask firefox-developer-edition
-brew install --cask brave-browser
-brew install --cask opera
-brew install --cask microsoft-edge
 
 brew install --cask slack
 brew install --cask skype

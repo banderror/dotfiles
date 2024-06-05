@@ -6,13 +6,6 @@ set -euo pipefail
 # Make sure brew is in PATH during the script execution
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Main tools
-brew install commander-one       # ?
-brew install visual-studio-code  # ?
-brew install typora              # ?
-brew install gitkraken           # ?
-brew install docker              # ?
-
 # HTTP and networking
 brew install postman             # ?
 brew install insomnia            # ?
