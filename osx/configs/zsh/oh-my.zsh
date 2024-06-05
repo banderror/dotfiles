@@ -12,7 +12,8 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 # https://github.com/zsh-users/antigen
 
 # As installed via Homebrew
-source /usr/local/share/antigen/antigen.zsh
+# source /usr/local/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library
 antigen use oh-my-zsh
