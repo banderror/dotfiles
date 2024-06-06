@@ -15,31 +15,10 @@ source ./install-terminal.sh
 source ./install-node-nvm.sh
 source ./install-node-nodejs.sh
 source ./install-node-yarn.sh
-source ./install-tools-main.sh
-source ./install-tools-misc.sh
-
-# ------------------------------------------------------------------------------
-# Install other apps
-
-brew install bitwarden
-brew install --cask ticktick
-brew install --cask numi
-brew install --cask purevpn
-
-brew install --cask slack
-brew install --cask skype
-brew install --cask telegram
-
-brew install --cask google-drive
-brew install --cask adobe-acrobat-reader
-brew install --cask megasync
-brew install --cask calibre
-brew install --cask qbittorrent
-brew install --cask recordit
-brew install --cask keycastr                  # https://github.com/keycastr/keycastr
-brew install --cask logitech-options
-brew install --cask vlc
-brew install --cask native-access
+source ./install-main-apps.sh
+source ./install-main-devtools.sh
+source ./install-misc-apps.sh
+source ./install-misc-devtools.sh
 
 # ------------------------------------------------------------------------------
 # Restore apps' configurations

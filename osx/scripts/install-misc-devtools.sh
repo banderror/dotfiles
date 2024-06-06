@@ -6,18 +6,11 @@ set -euo pipefail
 # Make sure brew is in PATH during the script execution
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# HTTP and networking
-brew install postman             # ?
-brew install insomnia            # ?
-brew install http-toolkit        # https://httptoolkit.tech/
-brew install charles             # ?
-brew install wireshark           # ?
-
 # Languages and platforms
 brew install go
 brew install python3
 
-# Cloud native
+# Cloud-native tools
 # brew install google-cloud-sdk           # ?
 # brew install awscli                     # ?
 # brew install aws-iam-authenticator      # ?
@@ -41,6 +34,6 @@ $(brew --prefix)/opt/fzf/install
 brew install pandoc                     # https://pandoc.org/index.html
 
 # Misc
-brew install dash                # ?
-brew install gpg-suite           # ?
-brew install suspicious-package  # ?
+brew install --cask dash                # ?
+brew install --cask gpg-suite           # ?
+brew install --cask suspicious-package  # ?

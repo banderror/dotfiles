@@ -13,7 +13,7 @@ sudo -v
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install packages
-brew install iterm2
+brew install --cask iterm2
 
 # ------------------------------------------------------------------------------
 # Download iTerm2 color schemes
