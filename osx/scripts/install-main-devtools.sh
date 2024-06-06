@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+# Strict mode: https://gist.github.com/robin-a-meade/58d60124b88b60816e8349d1e3938615
 set -euo pipefail
 
 # Make sure brew is in PATH during the script execution
@@ -18,3 +18,6 @@ brew install --cask insomnia            # https://insomnia.rest/
 brew install --cask http-toolkit        # https://httptoolkit.tech/
 brew install --cask charles             # https://www.charlesproxy.com/
 brew install --cask wireshark           # https://www.wireshark.org/
+
+# Documentation
+brew install --cask dash                # https://kapeli.com/dash
