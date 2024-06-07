@@ -90,8 +90,18 @@ Install misc dev tools:
 curl -o- https://raw.githubusercontent.com/banderror/dotfiles/master/osx/scripts/install-misc-devtools.sh | bash
 ```
 
+Configure GitHub CLI:
+
+```sh
+curl -o- https://raw.githubusercontent.com/banderror/dotfiles/master/osx/scripts/configure-github-cli.sh | bash
+```
+
 Cleanup Homebrew:
 
 ```sh
 brew cleanup
 ```
+
+Install manually:
+
+- Printer [Epson Workforce Pro WF-3725](https://www.epson.eu/support?productID=21256&language=en&os=35#drivers)

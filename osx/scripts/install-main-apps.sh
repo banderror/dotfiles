@@ -16,9 +16,10 @@ brew install --cask opera                       # https://www.opera.com/
 brew install --cask microsoft-edge              # https://www.microsoft.com/en-gb/edge
 brew install --cask arc                         # https://arc.net/
 
-# Messengers
-brew install --cask slack                       # https://slack.com/
+# Communication
 brew install --cask telegram                    # https://telegram.org/
+# brew install --cask slack                       # https://slack.com/
+# brew install --cask zoom                        # https://zoom.us/
 
 # Files
 brew install --cask commander-one               # https://commander-one.com/

@@ -4,12 +4,6 @@
 set -euo pipefail
 
 # ------------------------------------------------------------------------------
-# Pre-configure
-
-# Configure Zsh
-cp ~/Code/dotfiles/osx/homedir/.zshrc ~/.zshrc
-
-# ------------------------------------------------------------------------------
 # Install
 
 # Ask for the administrator password upfront
@@ -24,7 +18,7 @@ brew install antigen
 brew install powerlevel10k      # https://github.com/romkatv/powerlevel10k
 
 # ------------------------------------------------------------------------------
-# Post-configure
+# Configure
 
 # Switch from built-in Zsh to the one installed via Homebrew
 # https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/
