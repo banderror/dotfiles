@@ -6,6 +6,11 @@ set -euo pipefail
 # Make sure brew is in PATH during the script execution
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# https://www.nerdfonts.com/
-brew install font-hack-nerd-font            # https://sourcefoundry.org/hack/
-brew install font-meslo-lg-nerd-font
+# Install Mackup
+brew install mackup     # https://github.com/lra/mackup
+
+# Configure Mackup
+cp ~/Code/dotfiles/osx/homedir/.mackup.cfg ~/.mackup.cfg
+
+# Restore settings
+mackup restore

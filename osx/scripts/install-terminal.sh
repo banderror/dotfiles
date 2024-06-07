@@ -41,12 +41,4 @@ unzip -a "$CSCHEMES_ZIP" -d "$CSCHEMES_DIR"
 # ------------------------------------------------------------------------------
 # Set up "Nerd Fonts"
 
-# They can be found in ~/Library/Fonts:
-#   $ ls -la ~/Library/Fonts
-#   Hack Italic Nerd Font Complete.ttf
-#   Hack Regular Nerd Font Complete.ttf
-#   Hack Bold Italic Nerd Font Complete.ttf
-#   Hack Bold Nerd Font Complete.ttf
-
-# Configure iTerm
 # iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font

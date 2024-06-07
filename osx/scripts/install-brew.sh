@@ -15,15 +15,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 echo
 
 # ------------------------------------------------------------------------------
-# Configure
-
-#echo "Homebrew :: Adding taps"
-#brew tap homebrew/cask-fonts
-#brew tap homebrew/cask-drivers
-#brew tap homebrew/cask-versions
-#echo
-
-# ------------------------------------------------------------------------------
 # Update
 
 echo "Homebrew :: Updating"

@@ -21,6 +21,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install packages
 brew install zsh
 brew install antigen
+brew install powerlevel10k      # https://github.com/romkatv/powerlevel10k
 
 # ------------------------------------------------------------------------------
 # Post-configure

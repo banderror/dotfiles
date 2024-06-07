@@ -29,8 +29,6 @@ antigen bundle node
 antigen bundle npm
 antigen bundle nvm
 antigen bundle osx
-antigen bundle sbt
-antigen bundle scala
 antigen bundle yarn
 
 # Other bundles
