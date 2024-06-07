@@ -14,6 +14,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install packages
 brew install --cask iterm2
+brew install --cask warp
 
 # ------------------------------------------------------------------------------
 # Download iTerm2 color schemes
