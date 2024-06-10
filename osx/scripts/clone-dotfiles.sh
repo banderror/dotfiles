@@ -4,13 +4,12 @@
 set -euo pipefail
 
 # Create a Code folder
-mkdir -p ~/Code
-cd ~/Code
+mkdir -p ~/Code && cd ~/Code
 
 # Clone dotfiles repos
-git clone git@github.com:banderror/dotfiles.git
-git clone git@github.com:banderror/dotfiles-private.git
-ls -la
+cd ~/Code && git clone git@github.com:banderror/dotfiles.git
+cd ~/Code && git clone git@github.com:banderror/dotfiles-private.git
+cd ~/Code && ls -la
 
 # Go to the scripts folder
 cd ~/Code/dotfiles/osx/scripts
