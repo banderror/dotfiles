@@ -59,9 +59,9 @@ kibana-init() {
   # Debug mode for the test server:
   #   cd ${KIBANA_HOME} && node --inspect-brk x-pack/scripts/functional_tests_server --config x-pack/test/security_solution_api_integration/test_suites/path/to/config.ts
 
-  # node x-pack/scripts/functional_tests_server --config x-pack/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/management/trial_license_complete_tier/configs/ess.config.ts
+  # node x-pack/scripts/functional_tests_server --config x-pack/solutions/security/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/customization_enabled/upgrade_notifications/configs/ess.config.ts
 
-  # node x-pack/scripts/functional_test_runner --config x-pack/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/management/trial_license_complete_tier/configs/ess.config.ts --include x-pack/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/management/trial_license_complete_tier/bootstrap_prebuilt_rules.ts
+  # node x-pack/scripts/functional_test_runner --config x-pack/solutions/security/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/customization_enabled/upgrade_notifications/configs/ess.config.ts --include x-pack/solutions/security/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/customization_enabled/upgrade_notifications/get_prebuilt_rules_status.ts
 
   # Work with E2E tests (Cypress)
   alias test-cypress-ess='cd ${KIBANA_HOME}/x-pack/solutions/security/test/security_solution_cypress && yarn cypress:open:ess'
