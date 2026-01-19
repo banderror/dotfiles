@@ -44,10 +44,6 @@ kibana-init() {
   alias start-i18n-check='cd ${KIBANA_HOME} && node scripts/i18n_check --ignore-missing'
   alias start-i18n-fix='cd ${KIBANA_HOME} && node scripts/i18n_check.js --fix'
 
-  # Check the code for circular dependencies
-  # Add --debug for showing circular dependencies that were whitelisted
-  alias start-deps-check='cd ${KIBANA_HOME} && node scripts/find_plugins_with_circular_deps'
-
   # Work with unit tests (Jest)
   # Run a single file with unit tests in watch mode: test-tdd x-pack/solutions/security/plugins/security_solution/path/to/my/file.test.ts
   alias test-tdd='f() { TESTS_PATH=${1:-""}; cd ${KIBANA_HOME} && node x-pack/scripts/jest.js $TESTS_PATH --watch -o; };f'
