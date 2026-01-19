@@ -67,13 +67,9 @@ kibana-init() {
 
   # node x-pack/scripts/functional_test_runner --config x-pack/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/management/trial_license_complete_tier/configs/ess.config.ts --include x-pack/test/security_solution_api_integration/test_suites/detections_response/rules_management/prebuilt_rules/management/trial_license_complete_tier/bootstrap_prebuilt_rules.ts
 
-  alias test-integration-lists='cd ${KIBANA_HOME}/x-pack && node scripts/functional_tests --config test/lists_api_integration/security_and_spaces/config.ts'
-  alias test-integration-server-lists='cd ${KIBANA_HOME}/x-pack && node scripts/functional_tests_server --config test/lists_api_integration/security_and_spaces/config.ts'
-  alias test-integration-runner-lists='cd ${KIBANA_HOME}/x-pack && node scripts/functional_test_runner --config test/lists_api_integration/security_and_spaces/config.ts'
-
   # Work with E2E tests (Cypress)
-  alias test-cypress-ess='cd ${KIBANA_HOME}/x-pack/test/security_solution_cypress && yarn cypress:open:ess'
-  alias test-cypress-serverless='cd ${KIBANA_HOME}/x-pack/test/security_solution_cypress && yarn cypress:open:serverless'
+  alias test-cypress-ess='cd ${KIBANA_HOME}/x-pack/solutions/security/test/security_solution_cypress && yarn cypress:open:ess'
+  alias test-cypress-serverless='cd ${KIBANA_HOME}/x-pack/solutions/security/test/security_solution_cypress && yarn cypress:open:serverless'
 
   # Backport a PR merged to the "main" branch
   alias start-backport='cd ${KIBANA_HOME} && node scripts/backport'
