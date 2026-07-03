@@ -14,6 +14,7 @@ eval "$(/usr/local/bin/brew shellenv)"      # Intel Mac
 # eval "$(/opt/homebrew/bin/brew shellenv)"   # Apple Silicon Mac
 
 # Install packages
+brew install bash
 brew install zsh
 brew install antigen
 brew install powerlevel10k      # https://github.com/romkatv/powerlevel10k

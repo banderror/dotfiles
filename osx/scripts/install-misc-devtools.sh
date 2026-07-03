@@ -16,7 +16,6 @@ brew install wget                       # https://www.gnu.org/software/wget/
 brew install jq                         # https://jqlang.github.io/jq/
 brew install lsd                        # https://github.com/Peltoche/lsd
 brew install bat                        # https://github.com/sharkdp/bat
-brew install busyloop/tap/envcat        # https://github.com/busyloop/envcat
 brew install fzf                        # https://github.com/junegunn/fzf
 brew install hey                        # https://github.com/rakyll/hey
 brew install httpie                     # https://httpie.io/cli
