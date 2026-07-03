@@ -23,6 +23,7 @@ kibana-init() {
 
   # Start Elasticsearch
   alias start-es='cd ${KIBANA_HOME} && yarn es snapshot --license trial -E xpack.security.authc.api_key.enabled=true -E path.data=${ES_DATA_HOME}'
+  alias start-es-basic='cd ${KIBANA_HOME} && yarn es snapshot --license basic -E xpack.security.authc.api_key.enabled=true -E path.data=${ES_DATA_HOME}'
   alias start-es-serverless='cd ${KIBANA_HOME} && yarn es serverless --projectType security'
 
   # Start Kibana
